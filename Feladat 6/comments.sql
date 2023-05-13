@@ -1,0 +1,11 @@
+CREATE DATABASE `comments` CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+USE `comments`;
+
+CREATE TABLE uzenetek (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  tema VARCHAR(30) NOT NULL,
+  uzenet TEXT NOT NULL,
+  ido DATETIME NOT NULL,
+  Nev VARCHAR(70) NOT NULL
+) ENGINE = MYISAM CHARACTER SET utf8 COLLATE utf8_general_ci;
