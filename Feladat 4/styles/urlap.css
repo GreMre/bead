@@ -1,0 +1,16 @@
+#form{width: 800x;}
+#kep{float: right; }
+#comment{width: 500px;
+height: 600px;}
+div{display: inline-block;}
+img{width: 400;
+    height: 700px;
+    border: none;
+    outline: none;
+    border-color: transparent;
+height: 600px;}
+button { width: 70px;
+         height: 25px;    
+    }
+
+  
