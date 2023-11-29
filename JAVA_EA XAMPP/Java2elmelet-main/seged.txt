@@ -1,0 +1,15 @@
+Algorithm: RandomForest
+
+Results
+Correctly Classified Instances          51               89.4737 %
+Incorrectly Classified Instances         6               10.5263 %
+Kappa statistic                          0.7635
+Mean absolute error                      0.2294
+Root mean squared error                  0.3161
+Relative absolute error                 50.1588 %
+Root relative squared error             66.2057 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 51	89.47368421052632%
+Incorrectly Classified Instances: 6
+

@@ -1,0 +1,30 @@
+Algorithm: IBk
+
+Results
+Correctly Classified Instances          52               91.2281 %
+Incorrectly Classified Instances         5                8.7719 %
+Kappa statistic                          0.8138
+Mean absolute error                      0.2722
+Root mean squared error                  0.3281
+Relative absolute error                 59.4998 %
+Root relative squared error             68.7093 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 52	91.2280701754386%
+Incorrectly Classified Instances: 5
+
+Algorithm: SMO
+
+Results
+Correctly Classified Instances          51               89.4737 %
+Incorrectly Classified Instances         6               10.5263 %
+Kappa statistic                          0.7635
+Mean absolute error                      0.1053
+Root mean squared error                  0.3244
+Relative absolute error                 23.0111 %
+Root relative squared error             67.9505 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 51	89.47368421052632%
+Incorrectly Classified Instances: 6
+

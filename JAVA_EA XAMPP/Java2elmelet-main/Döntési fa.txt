@@ -1,0 +1,15 @@
+J48 pruned tree
+------------------
+
+wage-increase-first-year <= 2.5: bad (14.28/1.28)
+wage-increase-first-year > 2.5
+|   statutory-holidays <= 10
+|   |   vacation = below_average: bad (7.62/1.62)
+|   |   vacation = average: bad (0.0)
+|   |   vacation = generous: good (2.18)
+|   statutory-holidays > 10: good (26.92/1.0)
+
+Number of Leaves  : 	5
+
+Size of the tree : 	8
+

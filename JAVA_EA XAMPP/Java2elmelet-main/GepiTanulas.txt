@@ -1,0 +1,60 @@
+Algorithm: J48
+
+Results
+Correctly Classified Instances          42               73.6842 %
+Incorrectly Classified Instances        15               26.3158 %
+Kappa statistic                          0.4415
+Mean absolute error                      0.3192
+Root mean squared error                  0.4669
+Relative absolute error                 69.7715 %
+Root relative squared error             97.7888 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 42	73.6842105263158%
+Incorrectly Classified Instances: 15
+
+Algorithm: SMO
+
+Results
+Correctly Classified Instances          51               89.4737 %
+Incorrectly Classified Instances         6               10.5263 %
+Kappa statistic                          0.7635
+Mean absolute error                      0.1053
+Root mean squared error                  0.3244
+Relative absolute error                 23.0111 %
+Root relative squared error             67.9505 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 51	89.47368421052632%
+Incorrectly Classified Instances: 6
+
+Algorithm: NaiveBayes
+
+Results
+Correctly Classified Instances          51               89.4737 %
+Incorrectly Classified Instances         6               10.5263 %
+Kappa statistic                          0.7741
+Mean absolute error                      0.1042
+Root mean squared error                  0.2637
+Relative absolute error                 22.7763 %
+Root relative squared error             55.2266 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 51	89.47368421052632%
+Incorrectly Classified Instances: 6
+
+Algorithm: RandomForest
+
+Results
+Correctly Classified Instances          51               89.4737 %
+Incorrectly Classified Instances         6               10.5263 %
+Kappa statistic                          0.7635
+Mean absolute error                      0.2294
+Root mean squared error                  0.3161
+Relative absolute error                 50.1588 %
+Root relative squared error             66.2057 %
+Total Number of Instances               57     
+
+Correctly Classified Instances: 51	89.47368421052632%
+Incorrectly Classified Instances: 6
+
