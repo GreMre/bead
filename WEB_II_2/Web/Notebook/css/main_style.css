@@ -1,0 +1,79 @@
+header, footer {
+    padding: 0.5em; 
+    color: white;
+    background-color: #5386E4;
+    clear: left;
+    text-align: center;
+    justify-content: center; /* Vízszintesen középre igazítás */
+    align-items: center; /* Függőlegesen középre igazítás */
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #eceaf0, rgb(189, 188, 188));
+   
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+    inset-inline: initial;
+    display: inline;
+}
+.container {
+    display: flex; /* Flexbox elrendezés */
+    align-items: center; /* Tartalmat középre igazítjuk az egyenes sorban */
+    margin: 0;
+    justify-content: center; /* Vízszintesen középre igazítás */
+    align-items: center; /* Függőlegesen középre igazítás */
+    
+}
+.kep img{
+    width: 160px;
+    height: 160px;
+    margin: 0;
+}
+h1.header {
+    padding: 0;
+    margin: 0;
+}
+div#user {
+    float: right;
+}
+aside {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+section {
+    margin-left: 190px;
+    border-left: 1px solid gray;
+    padding: 1em;
+}
+ul {
+    float:left;
+    width:100%; /* A menü az alatta levő szövegtől elválik, birtokolja a teljes vízszintes sávját. */
+    padding:0;
+    margin:0;
+    list-style-type:none;
+    background-color: #4C4B63;
+}        
+a {
+    text-align: center;
+    vertical-align: middle;
+    float:left;
+    width:5em; /* Fix szélességű gombok érhetők el. Érdemes azonban vigyázni ezzel a módszerrel, mert ha a szöveg nem fér ki, a dizájn szétesik. */
+    text-decoration:none; /* Ne legyen aláhúzva a link. */
+    color:#949396; /*Aktivált menu gomb*/
+    background-color: #4C4B63;/*nem aktivált gomb szín*/
+    height: 1.5em;
+    padding:0.2em 0.6em;
+    border-right:0px solid white;
+    margin: 0;
+    
+}
+a.selected{
+    background-color: #C3C3C3;
+}
+a:hover { background-color:#2b2b39} /* Az egérkurzorra színváltással reagál a menüpont. */
+li { display:inline } /* Ez a sor oldja meg, hogy a menüpontok egymás mellé kerüljenek. */
